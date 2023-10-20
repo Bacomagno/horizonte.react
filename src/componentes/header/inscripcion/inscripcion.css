@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+# inscripcion Section
+--------------------------------------------------------------*/
+.inscripcion h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+  margin: 30px 0;
+  columns: #2e3135;
+}
+
+@media (min-width: 991px) {
+  .inscripcion h2 {
+    /*max-width: 65%;*/
+    margin: 0 0 80px 0;
+  }
+}
+
+.inscripcion .our-story {
+  padding: 60px;
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 991px) {
+  .inscripcion .our-story {
+    padding-right: 35%;
+  }
+}
+
+
+
+.inscripcion .our-story p:last-child {
+  margin-bottom: 0;
+}
+
+.inscripcion ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.inscripcion ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.inscripcion ul i {
+  font-size: 20px;
+  margin-right: 4px;
+  color: var(--color-primary);
+}
+
+
+.inscripcion .inscripcion-img {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .inscripcion .inscripcion-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+  
+  
